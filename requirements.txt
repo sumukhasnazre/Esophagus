@@ -1,0 +1,30 @@
+# Flask and web
+flask
+werkzeug
+
+# Deep Learning - TensorFlow/Keras
+tensorflow
+
+# Deep Learning - PyTorch
+torch
+torchvision
+torchsummary
+torchviz
+
+# Quantum Computing
+qiskit
+qiskit-machine-learning
+
+# Computer Vision
+opencv-python
+Pillow
+
+# Scientific Computing
+numpy
+scipy
+
+# Database
+# (sqlite3 is built-in)
+
+# Additional utilities
+# (werkzeug.security is included in werkzeug)

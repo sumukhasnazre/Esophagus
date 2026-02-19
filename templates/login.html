@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Esophagus Cancer Classifier</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body style="background-image:url('https://thepathologist.com/fileadmin/_processed_/8/2/csm_1024-118-AI-News-Label-Free-Virtual-Staining-and-Cancer-Classification_Teaser_8be04df6a8.png')">
+    <div class="form-container">
+        <h2>Esophagus Cancer Classifier</h2>
+        <form method="POST" action="{{ url_for('login') }}">
+            <label for="username">Username:</label>
+            <input type="text" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" name="password" required>
+            <button type="submit">Login</button>
+            <p>Don't have an account? <a href="{{ url_for('register') }}">Register here</a>.</p>
+        </form>
+    </div>
+</body>
+</html>

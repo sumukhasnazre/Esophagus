@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+
+# Machine Learning models
+*.h5
+*.pt
+*.pth
+*.pkl
+*.joblib
+
+# Dataset folders
+CarpetImagenes/
+Imagenes_Clasificadas_Random_Split/
+
+# CSV datasets
+*.csv
+
+# Database
+*.db
+
+# Temporary files
+allfiles.txt
+
+# OS files
+.DS_Store
+Thumbs.db
